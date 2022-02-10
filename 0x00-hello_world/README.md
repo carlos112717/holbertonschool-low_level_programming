@@ -1,0 +1,1 @@
+En esta sección se realizan ejercicios basicos en C, entendiendo el uso de las variables
