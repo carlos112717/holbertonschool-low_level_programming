@@ -1,1 +1,1 @@
-# holbertonschool-low_level_programming
+En este repositorio se aprendera sobre el lenguaje de programación C, desde 0.
