@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*This Script sends a message*/
-/*Main- serves as the starting point for program execution */
+
+/**
+  * main - main serves as the starting point for program execution
+  *
+  * Return: Always 0 (Success) at the time of execution
+  */
 int main(void)
 {
-puts("Programming is like building a multilingual puzzle");
-/*Return- 0 when executed*/
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
