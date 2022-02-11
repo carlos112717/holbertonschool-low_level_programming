@@ -1,0 +1,1 @@
+Dans cette section du référentiel, vous apprendrez à utiliser la syntaxe des déclarations et des fonctions dans le langage C.
