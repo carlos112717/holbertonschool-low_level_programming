@@ -1,20 +1,16 @@
-/* Escribir los numeros de un solo digito a partir de 0 en base 10 */
 #include <stdio.h>
-
 /**
- * main - prints numbers from 0 to 9
- *
- * Return: Always 0 (Success)
- */
+ * main - print the number
+ * Return: always 0
+*/
 int main(void)
 {
-char num[10];
-int i;
+int numbers;
 
-for (i = 0; i < 10; i++)
-{
-num[i] = i + '0';
-printf("%c", num[i]);
-}
+for (numbers = 0 ; numbers <= 9; numbers++)
+printf("%d", numbers);
+
+printf("\n");
+
 return (0);
 }
