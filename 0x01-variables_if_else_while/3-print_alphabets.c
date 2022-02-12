@@ -14,12 +14,11 @@ for (bB = 'a'; bB <= 'z'; bB++)
 {
 putchar(bB);
 }
-putchar('\n');
 
 for (bB = 'A'; bB <= 'Z'; bB++)
 {
 putchar(bB);
 }
-
+putchar('\n');
 return (0);
 }
