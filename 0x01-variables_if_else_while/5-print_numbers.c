@@ -14,7 +14,7 @@ int i;
 for (i = 0; i < 10; i++)
 {
 num[i] = i + '0';
-printf("%c\n", num[i]);
+printf("%c", num[i]);
 }
 return (0);
 }
