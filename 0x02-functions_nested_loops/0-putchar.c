@@ -1,15 +1,24 @@
-/* Printout of the putchar function calling it with main from the library */
-#include<main.h>
 /**
- * The _putchar function will be called with main so that a message is printed
+ * @file 0-putchar.c
+ * @author Carlos A. Cortes
+ * @brief Algorithm to print a message in a specific language
+ * @version 0.1
+ * @date 2022-02-14
  *
- * main: Call the functions needed to print a message
+ * @copyright Copyright (c) 2022
  *
- * Return : always return 0
  */
+#include <main.h>
 
+/**
+ * main -  function is the entry point of the program
+ *
+ * Returns: 0 if the program ends successfully
+ */
 int main(void)
-	{
-	  _putchar ("_putchar\n");
-	    return (0);
-	}
+{
+char *message = "_putchar";
+_putchar(message);
+_putchar('\n');
+return (0);
+}
